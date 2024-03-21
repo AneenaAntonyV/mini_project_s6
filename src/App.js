@@ -21,6 +21,7 @@ import Fracture from "./Firstaidpages/Fracture";
 import Heartattack from "./Firstaidpages/Heartattack"
 import Snakebite from "./Firstaidpages/Snakebite";
 import Sprain from "./Firstaidpages/Sprain";
+import Insectbite from "./Firstaidpages/Insectbite";
 
 
 function App() {
@@ -49,8 +50,8 @@ function App() {
             <Route path="/heartattack" exact element={<Heartattack/>} />
             <Route path="/snakebite" exact element={<Snakebite/>} />  
             <Route path="/sprain" element={<Sprain/>}/>
+            <Route path="/insectbite" element={<Insectbite/>}/>
           </Routes>
-
         </BrowserRouter>
       </div>
     </div>

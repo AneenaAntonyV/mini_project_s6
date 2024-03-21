@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from "react-router-dom";
+import React from 'react';
 import "../styles/home.css";
+import {Link} from "react-router-dom";
+// import Img1 from "../assets/firstaid.jpg";
+// import Img2 from "../assets/medicalcare.avif";
+// import Img3 from "../assets/police.jpg";
+// import Img4 from "../assets/firestation.avif";
 const Home = () => {
-
   const [categories, setCategoryList] = useState([])
   useEffect(() => {
     // API Call via bnodejs to DB to fetch the list of categories
