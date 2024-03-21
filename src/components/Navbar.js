@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../assets/logo.jpg";
+import Logo from "../assets/logo3.png";
 import "../styles/Navbar.css";
 import {Link} from "react-router-dom";
 function Navbar() {
@@ -8,7 +8,7 @@ function Navbar() {
       <div className='navbar'>
         <div className='leftSide'>
             <img  id='logo' src={Logo} alt='img not found'/>
-            <h1 id='heading'>AidSwift</h1>
+            <h1 id='heading'></h1>
         </div>
         <div className='rightSide'>
             { <ul>
