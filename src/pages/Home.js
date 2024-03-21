@@ -6,38 +6,26 @@ import {Link} from "react-router-dom";
 // import Img3 from "../assets/police.jpg";
 // import Img4 from "../assets/firestation.avif";
 const Home = () => {
-    return (
-      <div>
-        <div className='top'>
-              <h1 id='hheading'></h1>
-            <Link to ="/firstaid">
-              <button id='btn1' className='hbutton'>
-              {/* <img  id='img1' src={Img1} alt='img not found'/> */}
-                First Aid
-            </button>
-            </Link>
-            <Link to ="/emergency">
-              <button id='btn2' className='hbutton'>
-              {/* <img  id='img2' src={Img2} alt='img not found'/> */}
-                Emergency<br /> Medical Care</button>
-            </Link>
-        </div>
-      
-      <div className='bottom'>
-        <Link to ="/police">
-          <button id='btn3' className='hbutton'>
-          {/* <img  id='img3' src={Img3} alt='img not found'/> */}
-              Police</button>
-        </Link>
-        <Link to ="/fireforce">
-          <button id='btn4' className='hbutton'>
-          {/* <img  id='img4' src={Img4} alt='img not found'/> */}
-            Fire Force</button>
-        </Link>
-      </div>
-      
-
-      </div>
-    );
-  }
+  const [categories, setCategoryList] = useState([])
+  useEffect(() => {
+    // API Call via bnodejs to DB to fetch the list of categories
+    // eslint-disable-next-line
+    const a = fetch("http://localhost:5000/categories").then(res => res.json()).then(
+      data => {
+        setCategoryList(data);
+      }
+    )
+  }, [])
+  //console.log(categories)
+  return (
+    <div>
+      <h1 id='hheading'>Home Page</h1>
+        {categories.map((category) => (
+          <Link to ={category.category_url}>
+            <button className='hbutton'>{category.categories_name}</button>
+          </Link>
+          ))}
+    </div>
+  );
+}
 export default Home;
