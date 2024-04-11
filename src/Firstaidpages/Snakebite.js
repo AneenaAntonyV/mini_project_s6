@@ -1,11 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import "../styles/firstaidpages.css";
+const Home = () => {
 
-function Snakebite() {
+  const [Snakebite, setSnakebite] = useState([])
+  useEffect(() => {
+    // API Call via bnodejs to DB to fetch the list of categories
+    // eslint-disable-next-line
+    const a = fetch("http://localhost:5000/emergency_list?id=10").then(res => res.json()).then(
+      data => {
+        setSnakebite(data);
+      }
+    )
+  }, [])
+ 
+  const firstEmergency = Snakebite[0] || {};
   return (
     <div>
-      <h1>this is the Snakebite related page</h1>
+        <div dangerouslySetInnerHTML={{ __html: firstEmergency.emergency_details }}>
+        </div>
+    
     </div>
   );
 }
-
-export default Snakebite;
+export default Home;

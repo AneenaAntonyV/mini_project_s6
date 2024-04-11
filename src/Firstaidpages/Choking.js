@@ -6,7 +6,7 @@ const Home = () => {
   useEffect(() => {
     // API Call via bnodejs to DB to fetch the list of categories
     // eslint-disable-next-line
-    const a = fetch("http://localhost:5000/emergency_list").then(res => res.json()).then(
+    const a = fetch("http://localhost:5000/emergency_list?id=4").then(res => res.json()).then(
       data => {
         setChoking(data);
       }
@@ -16,7 +16,6 @@ const Home = () => {
   const firstEmergency = Choking[0] || {};
   return (
     <div>
-        <h1 id='fheading'>CHOKING</h1>
         <div dangerouslySetInnerHTML={{ __html: firstEmergency.emergency_details }}>
         </div>
     
