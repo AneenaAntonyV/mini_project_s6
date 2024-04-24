@@ -1,0 +1,70 @@
+/* Style for the awareness container */
+.awareness-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+.awarenesselement {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .awarenesselement h2 {
+    margin-top: 0;
+  }
+  
+  .awarenesselement p {
+    margin-bottom: 10px;
+  }
+  /* Style for each awareness item */
+  .awareness-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the heading */
+  .awareness-item h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  /* Style for the location and time */
+  .awareness-item .location-time {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the content */
+  .awareness-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Style for the register button */
+  .register-button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }

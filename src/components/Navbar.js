@@ -1,7 +1,8 @@
 import React from 'react';
-import Logo from "../assets/logo3.png";
+import Logo from "../assets/new_logo.png";
 import "../styles/Navbar.css";
 import {Link} from "react-router-dom";
+import "../pages/Admins";
 function Navbar() {
   return (
     <div>
@@ -16,6 +17,7 @@ function Navbar() {
                 <Link to="/about" className='newlink'>About</Link>
                 <Link to="/help" className='newlink'>Help</Link>
                 <Link to="/firstaidkit" className='newlink'>FirstaidKit</Link>
+                <Link to="/admins" className='newlink'>Admin Login</Link>
             </ul> }
            
         </div>

@@ -3,6 +3,7 @@ import "../styles/firstaidpages.css";
 const Home = () => {
 
   const [Drowning, setDrowning] = useState([])
+  // Fetching Data with useEffect
   useEffect(() => {
     // API Call via bnodejs to DB to fetch the list of categories
     // eslint-disable-next-line
@@ -12,11 +13,12 @@ const Home = () => {
       }
     )
   }, [])
- 
+//  extracts the first element from the Drowning array 
+//  and assigns it to the firstEmergency variable.
   const firstEmergency = Drowning[0] || {};
   return (
     <div>
-        <h1 id='fheading'>Drowning</h1>
+       {/* render HTML content  */}
         <div dangerouslySetInnerHTML={{ __html: firstEmergency.emergency_details }}>
         </div>
     

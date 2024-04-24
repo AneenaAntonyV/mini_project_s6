@@ -1,3 +1,161 @@
-#he{
-    color: #000;
+/* styles/helpline.css
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #1f1e1e;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #db9595;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #222020;
+    text-align: left;
+}
+
+th {
+    background-color: #e5a9a9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f4d9d9;
+}
+
+tbody tr:hover {
+    background-color: #f2f2f2;
+} */
+/* styles/helpline.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #1f1e1e;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #db9595;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #222020;
+    text-align: left;
+}
+
+th {
+    background-color: #e5a9a9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f4d9d9;
+}
+
+tbody tr:hover {
+    background-color: #f2f2f2;
+}
+About page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Emergency Aid</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Emergency Aid</h1>
+    </header>
+    <section>
+        <h2>Our Mission</h2>
+        <p>At Emergency Aid, we believe that in times of crisis, every individual should have access to reliable and actionable information to respond effectively. Whether it's a medical emergency, accident, or natural disaster, knowing what to do can make all the difference.</p>
+        <p>Our mission is to provide a user-friendly and comprehensive platform for immediate emergency response and fir…
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Emergency Aid</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Emergency Aid</h1>
+    </header>
+    <section>
+        <h2>Our Mission</h2>
+        <p>At Emergency Aid, we believe that in times of crisis, every individual should have access to reliable and actionable information to respond effectively. Whether it's a medical emergency, accident, or natural disaster, knowing what to do can make all the difference.</p>
+        <p>Our mission is to provide a user-friendly and comprehensive platform for immediate emergency response and fir…
+Firstaid page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Aid Kit Contents</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>First Aid Kit Contents</h2>
+<ul>
+  <li>Adhesive Bandages: Various sizes and shapes for covering small cuts, scrapes, and blisters.</li>
+  <li>Sterile Gauze Pads: Used for covering larger wounds and applying pressure to control bleeding.</li>
+  <li>Adhesive Tape: Secures dressings and bandages in place.</li>
+  <li>Antiseptic Wipes or Solution: Used to clean and disinfect wounds to prevent infection.</li>
+  <li>Scissors: For cutting tape, gauze, or clothing if necessary.</li>
+  <li>Tweezers: To remove splinters, ticks, or …
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+li:before {
+  content: "\2022";
+  color: #333;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
 }

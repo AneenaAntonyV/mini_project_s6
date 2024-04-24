@@ -1,0 +1,71 @@
+/* Start of the CSS code */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #ea4747;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+li {
+    line-height: 1.6;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+iframe {
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Adding some responsiveness to the iframes */
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
+
+  
+
+/* Small screen adjustments */
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+/* End of the CSS code */

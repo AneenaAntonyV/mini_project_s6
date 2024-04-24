@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "../styles/firstaidpages.css";
+import "../styles/chocking.css";
 const Home = () => {
 
   const [Choking, setChoking] = useState([])

@@ -1,124 +1,141 @@
 *{
-    text-align: center;
+  text-align: center;
 }
 
 .hbutton {
-    position: relative;
-    display: block;
-    width: 350px; /* Square dimensions */
-    height: 200px;
-    margin-bottom: 25px;
-    margin-top:50px;
-    /* padding: 40px 40px 40px 40px ; */
-    margin-left:40px;
-    
-    border: #101210;
-    background-color:rgb(79, 131, 173);
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    /* Equal to the width for square shape */
-    border-color: none;
-    border-radius: 8px;
-    text-align: center;
-    align-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: none;
-    justify-content: center;
-    display: inline-flex;
-    font-size: 16px;
-    transition-duration: 0.3s;
-    cursor: pointer;
-    flex-direction:column ;
-    gap: 60px;
-    line-height: 1.5; 
-    position: relative;
-    padding: 10px 20px;
-    border: none;
-   
-    color: rgb(13, 12, 12);
-    font-size: 18px;
-    cursor: pointer;
-    /* vertical-align: middle;  */
-}
+  position: relative;
+  display: block;
+  width: 350px; /* Square dimensions */
+  height: 200px;
+  margin-bottom: 25px;
+  margin-top:50px;
+  /* padding: 40px 40px 40px 40px ; */
+  margin-left:40px;
+  
+  border: #101210;
+  background-color:rgb(79, 131, 173);
+  box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
+  /* Equal to the width for square shape */
+  border-color: none;
+  border-radius: 8px;
+  text-align: left;
+  align-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  justify-content: center;
+  display: inline-flex;
+  font-size: 16px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  flex-direction:column ;
+  gap: 60px;
+  line-height: 1.5; 
+  position: relative;
+  padding: 10px 20px;
+  border: none;
  
+  color: rgb(13, 12, 12);
+  font-size: 18px;
+  cursor: pointer;
+  /* vertical-align: middle;  */
+}
+
 
 #img1{
-    
-    position: absolute; 
-    left: 50%; 
-    width: 130px; /* Set the width of the image */
-    height: auto; 
-    border-radius: 15px;
- }
+  
+  position: absolute; 
+  left: 50%; 
+  width: 130px; /* Set the width of the image */
+  height: auto; 
+  border-radius: 15px;
+}
 #img2 {
-    
-     /* Let the height adjust automatically to maintain aspect ratio */
-    position: absolute; 
-    left: 50%; 
-    width: 130px; /* Set the width of the image */
-    height: auto; 
-    border-radius: 15px;
-  }
-  #img3{
-    
-    /* Let the height adjust automatically to maintain aspect ratio */
-   position: absolute; 
-   left: 50%; 
-   width: 130px; /* Set the width of the image */
-   height: auto; 
-   border-radius: 15px;
- }
   
- #img4{
-    
-    /* Let the height adjust automatically to maintain aspect ratio */
-   position: absolute; 
-   margin-left: -20px;
-   left: 50%; 
-   width: 145px; /* Set the width of the image */
-   height: auto; 
-   border-radius: 15px;
- }
+   /* Let the height adjust automatically to maintain aspect ratio */
+  position: absolute; 
+  left: 50%; 
+  width: 130px; /* Set the width of the image */
+  height: auto; 
+  border-radius: 15px;
+}
+#img3{
+  
+  /* Let the height adjust automatically to maintain aspect ratio */
+ position: absolute; 
+ left: 50%; 
+ width: 130px; /* Set the width of the image */
+ height: auto; 
+ border-radius: 15px;
+}
 
-  /* styles/home.css */
+#img4{
+  
+  /* Let the height adjust automatically to maintain aspect ratio */
+ position: absolute; 
+ margin-left: -20px;
+ left: 50%; 
+ width: 145px; /* Set the width of the image */
+ height: auto; 
+ border-radius: 15px;
+}
+
+/* styles/home.css */
 
 
-  
-  .button-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50px;
-    height: auto;
-  }
-  
-  .top {
-    display: flex;
-    justify-content: center;
-  
-  }
-  
-  .bottom{
-    display: flex;
-   justify-content:center ;
-    
-  }
-  #btn1{
-    background-color:#bae1ff ;
-  }
-  #btn2{
-    background-color: #ffb3ba;
-  }
-  #btn3{
-    background-color:#a8e6cf ;
-  }
-  #btn4{
-    background-color:#ffdfba ;
-  }
-  
-#btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover {
-    background-color:rgb(36, 182, 231);
-      box-shadow: 0 4px 8px rgba(87, 67, 67, 0.2);
 
-    transform: scale(1.02);
+.button-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+
+}
+
+.bottom{
+  display: flex;
+ justify-content:center ;
+  
+}
+#btn1{
+  background-color:#bae1ff ;
+}
+#btn2{
+  background-color: #ffb3ba;
+}
+#btn3{
+  background-color:#a8e6cf ;
+}
+#btn4{
+  background-color:#ffdfba ;
+}
+
+#btn5{
+  background-color:  #d1cfe2;
+}
+
+#btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover ,#btn5:hover{
+  background-color:rgb(36, 182, 231);
+    box-shadow: 0 4px 8px rgba(87, 67, 67, 0.2);
+
+  transform: scale(1.02);
+}
+
+#abutton{
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color, you can change this */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline from the button */
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
 }

@@ -1,12 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import "../styles/firstaidpages.css";
 import "../styles/help.css";
-const Help = () => {
-    return (
-      <div>
-        <h1 id="he">this is help page</h1>
-        </div>
-    );
-  }
-  
+const Home = () => {
 
-export default Help;
+  const [Help, setHelp] = useState([])
+  useEffect(() => {
+    // API Call via bnodejs to DB to fetch the list of categories
+    // eslint-disable-next-line
+    const a = fetch("http://localhost:5000/emergency_list?id=13").then(res => res.json()).then(
+      data => {
+        setHelp(data);
+      }
+    )
+  }, [])
+ 
+  const firstEmergency = Help[0] || {};
+  return (
+    <div>
+        <div dangerouslySetInnerHTML={{ __html: firstEmergency.emergency_details }}>
+        </div>
+    
+    </div>
+  );
+}
+export default Home;

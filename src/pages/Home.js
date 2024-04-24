@@ -24,7 +24,11 @@ import Img4 from "../assets/firestation.avif";
         <Link to ="/fireforce">
           <button className='hbutton' id='btn4'><img  id='img4' src={Img4} alt='img not found'/>Fire Force</button>
         </Link>
+      <Link to ="/awareness">
+          <button className='hbutton' id='btn5'>Awareness Programs</button>
+      </Link>
       </div>
+
   
       </div>
     );

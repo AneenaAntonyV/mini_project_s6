@@ -13,6 +13,7 @@
 .fbutton {
     position: relative;
     display: block;
+    align-items: flex-start;
     width: 150px; 
     height: 200px;
     margin-bottom: 40px;
@@ -89,74 +90,4 @@
 }
 #b12{
     background-color: #ceb5b7 ;
-}
-
-#b1:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-
-#b2:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-
-#b3:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-
-#b4:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-
-#b5:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-
-#b6:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-
-#b7:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-
-#b8:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-
-#b9:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-
-#b10:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-#b11:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
-}
-#b12:hover {
-    background-color: #3f84af;
-    box-shadow: 0 10px 10px -6px rgb(64, 50, 110);
-    transform: scale(1.05);
 }

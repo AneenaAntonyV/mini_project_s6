@@ -18,6 +18,26 @@ const Home = () => {
     <div>
         <div dangerouslySetInnerHTML={{ __html: firstEmergency.emergency_details }}>
         </div>
+        {/* {firstEmergency.videos && (
+        <div>
+          <h3>Videos</h3>
+          <ul>
+            {firstEmergency.videos.map((video, index) => (
+              <li key={index}>
+                <iframe
+                  title={`Video ${index + 1}`}
+                  width="560"
+                  height="315"
+                  src={video}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )} */}
     
     </div>
   );

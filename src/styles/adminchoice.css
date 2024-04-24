@@ -1,0 +1,43 @@
+/* AdminChoice.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .choice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .choice button {
+    padding: 50px 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .choice button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles can be added here */
+  
+  

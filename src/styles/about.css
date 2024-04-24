@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #d6b9b9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #d68080;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}

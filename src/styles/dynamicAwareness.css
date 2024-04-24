@@ -1,0 +1,33 @@
+/* dynamicAwareness.css */
+
+.dynamic-awareness-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .dynamic-awareness-box {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .dynamic-awareness-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .dynamic-awareness-location {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+  
+  .dynamic-awareness-content {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
